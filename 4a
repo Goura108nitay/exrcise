@@ -1,0 +1,284 @@
+<!Doctype html>
+<html>
+<head>
+  <title>exrcourse</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="6d.css">
+    
+  <h1>This is Krishna </h1> </head>
+  <body>    <p class="title">
+      Model 3
+    </p>
+
+    <p class="subtitle">
+      Order Online for
+      <span class="underlined">
+        Touchless Delivery
+      </span>
+  
+  <p class="title"> 
+ HTML CSS Course 
+ </p> 
+  
+ <p class="subtitle"> 
+ Beginner to Pro 
+ </p> 
+  
+ <p class="content"> 
+  In this course, we'll learn the skills you need to become a developer. 
+ </p> 
+  
+ <button class="button"> 
+  Get Started 
+ </button>
+ 
+ <hr/>
+ <!--next exrc-->
+ <p class="title"> 
+ Shopping for your business? 
+ </p> 
+  
+ <p class="subtitle"> 
+ See how Apple at Work can help. 
+ </p> 
+  
+ <p class="link"> 
+  Learn more &#62; 
+ </p>
+ <hr/>
+ <!--exrc3-->
+<p class="new">
+  New
+</p>
+
+<p class="product">
+  MacBook Pro
+</p>
+
+<p class="title">
+  Supercharged for pros.
+</p>
+
+<p class="price">
+  From $1999
+</p>
+
+<p>
+  <span class="buy">Buy</span>
+</p>
+<!--exrc3-->
+<hr/>
+<p class="price">
+  1,049.61 <span class="currency">USD</span>
+</p>
+
+<p class="change">
+  +18.05 (1.75%) today
+</p>
+
+<p class="after-hours">
+  After hours 1,048.00
+  <span class="after-hours-change">-1.61 (0.15%)</span>
+</p>
+<hr/>
+<!--exrc4-->
+<p class="tweet-header">
+  <span class="tweet-author">freeCodeCamp.org</span>
+  <span class="tweet-info">@freeCodeCamp 1h</span>
+</p>
+
+<p class="tweet">
+  As a web developer, you'll want to make your projects easy to use and navigate around.
+</p>
+
+<p class="tweet">
+  Here <span class="twitter-handle">@chp_it</span> outlines the top skills new developers should have.
+</p>
+
+ 
+ </body></html>
+
+<style> 
+ p{ 
+ font-family:Verdana; 
+ margin-top: 0; 
+ margin-bottom: 0; 
+ } 
+ .title { 
+ font-weight: bold; 
+ font-size:18px; 
+ margin-bottom:3px; 
+ } 
+  
+ .subtitle { 
+color: rgb(100,100,100); 
+ margin-bottom:18px; 
+ } 
+  
+ .content{ 
+ width: 300px; 
+ line-height: 22px; 
+ margin-bottom:18px; 
+ } 
+  
+ .button { 
+ font-family: Verdana; 
+ background-color: green; 
+ color: white; 
+ border: none; 
+ padding-top: 8px; 
+ padding-bottom: 8px; 
+ padding-left: 16px; 
+ padding-right:16px; 
+ border-radius: 6px; 
+ cursor: pointer; 
+ } 
+ <!--exrc2-->
+
+  p {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    margin-bottom: 20px;
+  }
+
+  .link {
+    color: rgb(58, 108, 199);
+  }
+  <!--exrc2---->
+  p {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .new {
+    color: rgb(245, 99, 0);
+    margin-bottom: 10px;
+  }
+
+  .product {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .title {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .price {
+    margin-bottom: 25px;
+  }
+
+  .buy {
+    background-color: rgb(0, 113, 227);
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  <!--exrc3-->
+    p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .price {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+
+  .currency {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+  }
+
+  .change {
+    color: rgb(24, 128, 56);
+    margin-bottom: 8px;
+  }
+
+  .after-hours {
+    color: rgb(100, 100, 100);
+  }
+
+  .after-hours-change {
+    color: rgb(235, 39, 39);
+  }
+  <!--exrc4-->
+    p {
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .tweet-header {
+    margin-bottom: 5px;
+  }
+
+  .tweet-author {
+    font-weight: bold;
+  }
+
+  .tweet-info {
+    color: rgb(100, 100, 100);
+  }
+
+  .tweet {
+    width: 600px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .twitter-handle {
+    color: rgb(29, 155, 240);
+  }
+  
+  <!--exrc5-->
+  
+  p {
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+</style> 
+  
+ 
